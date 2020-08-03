@@ -1,8 +1,3 @@
-<p align="center">
-  <img class="center" src="/images/myImage1.JPG">
-</p>
-<br>
-
 Hi, My name is Mohammad(Erfan) Vakilzadeh, known as **Randkill**. As you see this page, I'm about to finish my Bachelor of Science in Computer Science as soon as possible. Here is more information bout me.
 
 ---
