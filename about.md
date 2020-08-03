@@ -197,6 +197,6 @@ especially Pink Floyd and Nickelback’s rock.
 
 ### Contact me
 
-[erfan.vh@domain.com](mailto:erfan.vh@domain.com)
+[erfan.vh@gmail.com](mailto:erfan.vh@gmail.com)
 <br>
-[randkill.randkill@domain.com](mailto:randkill.randkill@domain.com)
+[randkill.randkill@gmail.com](mailto:randkill.randkill@gmail.com)
