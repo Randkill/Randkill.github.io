@@ -4,5 +4,20 @@ layout: default
 
 <div>
   <h1>Hey there ...</h1>
-  <p>Welcome to my website, I hope you would enjoy the content I publish here.</p>
+  <p>Welcome to my website, I hope you would enjoy the content published by me here.</p>
+</div>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
 </div>
