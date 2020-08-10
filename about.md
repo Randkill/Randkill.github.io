@@ -9,7 +9,7 @@ Hi, My name is Mohammad(Erfan) Vakilzadeh, known as **Randkill**. As you see thi
 <br>
 University of Kashan, Kashan, Iran
   * GPA: 16.5/20
-  * Thesis: Visual Keras Model Generator(in prepration)
+  * Thesis: Visual Keras Model Generator(in preparation)
 <br>
 
 ---
