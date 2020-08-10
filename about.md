@@ -177,7 +177,10 @@ are:
 * Computational Intelligence (GPA: 17.6/20)
 * Image Processing (GPA: 16.2/20)
 * Software Engineering (20/20)
+
+
 ---
+
 # Hobbies
 I love swimming as my #1 favorite sport. I am also fully proficient in 4 main styles.
 Besides sports, I am passionate about self development, working on my mentals and
