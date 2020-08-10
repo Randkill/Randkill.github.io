@@ -9,7 +9,7 @@ Hi, My name is Mohammad(Erfan) Vakilzadeh, known as **Randkill**. As you see thi
 <br>
 University of Kashan, Kashan, Iran
   * GPA: 16.5/20
-  * Thesis: Visual Keras Model Generator
+  * Thesis: Visual Keras Model Generator(in prepration)
 <br>
 
 ---
@@ -90,47 +90,40 @@ University of Kashan
 * Windows
 
 ---
-# Selected Courses
-* Data Mining (GPA: 20/20)
-* Data Base (GPA: 18.32/20)
-* Computational Intelligence (GPA: 16/20)
-* Image Processing (GPA: 16.2/20)
-* Software Engineering (20/20)
+# WorkShops
+2019
+
+### Introduction to GIT
+University of Kashan, Department of Mathematics
+<br>
+Computer Science Association
+* Role: Instructor
+
 
 ---
-# Projects
-Here are some of the projects I’ve developed during my career.
+# Academic Projects
+Here are some of the projects I’ve developed during my academic career for courses Computational Intelligence, Data Mining, Databases Lab, Image Processing, Advanced Computer Programming and Fundamentals of Computer and Programming
 2020
 
-**Persian Handwritten Digit Recognition​**: During my second time of working with image
-classifiers, I had a chance to design and develop a recognizer for a persian handwritten
-digit dataset(a persian alternative to mnist dataset). Then, I compared the accuracy of
-CNN with a multi layer perceptron and answers once again showed how good
-convolutionals can be in this field. I have also used Python and Keras for the purpose.
+**Persian Handwritten Digit Recognition​**: During my second time of working with image classifiers in course Computational Intelligence, I had a chance to design and develop a recognizer for a persian handwritten digit dataset(a persian alternative to mnist dataset). Then, I compared the accuracy of CNN with a multi layer perceptron and answers once again showed how good convolutionals can be in this field. I have also used Python and Keras for the purpose.
+
 <br>
 <br>
 2020
 <br>
 
-**Hospital Database​**: I developed and designed a simple hospital database using
-Microsoft SQL Server. I’ve also written some queries, functions, triggers and executed a
-few store procedures on the database
+**Hospital Database​**:  I developed and designed a simple hospital database using Microsoft SQL Server. I’ve also written some queries, functions, triggers and executed a few store procedures on the database for course Databases Lab.
+
 2019
-New York City Neighbourhood Map by Clustering​ : By a New York City Buildings
-Stats dataset, I used clustering algorithms KMeans and DBScan to make a secondary
-map using their latitudes and longitudes which shows neighbours and their boundary.
-Finally it can be visible how accurate these algorithms act compared to the real world.
-I’ve also used Python, Pandas and scikit-learn for this project.
+**New York City Neighbourhood Map by Clustering​** : For Data Mining course self defined project, I found a New York City Buildings Stats dataset and then used clustering algorithms KMeans and DBScan to make a secondary map using their latitudes and longitudes which shows neighbours and their boundary. Finally it can be visible how accurate these algorithms act compared to the real world. I’ve also used Python, Pandas and scikit-learn for this project.
+
 <br>
 <br>
 
 2019
 <br>
 
-**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: As a fun and cool
-project, I found a data set of these three great basketball players stats.Then I used
-machine learning algorithms such as KNN, Logistic Regression and SVM via Python,
-Pandas and scikit-learn and finally did following tasks:
+**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: As a fun and cool mini project for my Data Mining course, I found a data set of these three great basketball players stats.Then I used machine learning algorithms such as KNN, Logistic Regression and SVM via Python, Pandas and scikit-learn and finally did following tasks:
 * Mixing MJ, KB and LJ stats, finding average stats and finally predict their performance by
 age.(I used KNN and Logistic Regression)
 * Find the player’s name by giving age and performance(average points). (I used SVM)
@@ -140,10 +133,8 @@ age.(I used KNN and Logistic Regression)
 2019
 <br>
 
-**Image Classifier**: ​ As final project of my Image Processing course, a 10000 length
-dataset with 100 classes where given and classification was desired. As I started using
-python, I’ve solved the mentioned problem with a convolutional neural network via Keras
-library.
+**Image Classifier**: ​ As the final project of my Image Processing course, a 10000 length dataset with 100 classes where given and classification was desired. As I started using python, I’ve solved the mentioned problem with a convolutional neural network via Keras library.
+
 <br>
 <br>
 
@@ -177,15 +168,13 @@ are:
 * Checking graph completeness
 
 ---
-# WorkShops
-2019
 
-### Introduction to GIT
-University of Kashan, Department of Mathematics
-<br>
-Computer Science Association
-* Role: Instructor
-
+# Selected Courses
+* Data Mining (GPA: 20/20)
+* Data Base (GPA: 18.32/20)
+* Computational Intelligence (GPA: 17.6/20)
+* Image Processing (GPA: 16.2/20)
+* Software Engineering (20/20)
 ---
 # Hobbies
 I love swimming as my #1 favorite sport. I am also fully proficient in 4 main styles.
