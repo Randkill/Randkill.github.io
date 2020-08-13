@@ -1,4 +1,4 @@
-Hi, My name is Mohammad(Erfan) Vakilzadeh, known as **Randkill**. As you see this page, I'm about to finish my Bachelor of Science in Computer Science as soon as possible. Also I'm a Data Science and Web Development enthusiaist who is highly motivated and tries to learn new stuff.
+Hi, My name is Mohammad(Erfan) Vakilzadeh, known as **Randkill**. As you see this page, I'm about to finish my Bachelor of Science in Computer Science as soon as possible. Also, I'm a Data Science and Web Development enthusiast who is highly motivated and tries to learn new stuff.
 
 Here is my curriculum vitae:
 
