@@ -63,7 +63,7 @@ Start the service with **systemcl**.
 
 Referenced to [MongoDB](https://www.mongodb.com/), you can get the app via this [page](https://docs.mongodb.com/compass/master/install/). A **.deb** file would be downloaded, then you may install it with the given commands :
 
-<div style="text-align:center"
+<div style="text-align:center">
 <img src="../images/mongo/mongo02.png" align="center">
 </div>
 
