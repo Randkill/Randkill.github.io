@@ -48,7 +48,7 @@ Create a configuration file named mongodb.service in /etc/systemd/system to mana
 
 Copy the following contents in the file.
 
-<img src="./images/mongo/mongo01.png" align="center">
+<img src="../images/mongo/mongo01.png" align="center">
 
 Update the systemd service with the command stated below:
 > systemctl daemon-reload
@@ -63,14 +63,14 @@ Start the service with **systemcl**.
 
 Referenced to [MongoDB](https://www.mongodb.com/), you can get the app via this [page](https://docs.mongodb.com/compass/master/install/). A **.deb** file would be downloaded, then you may install it with the given commands :
 
-<img src="./images/mongo/mongo02.png" align="center">
+<img src="../images/mongo/mongo02.png" align="center">
 
 
 Then press **enter** and the app will be installed soon!
 The installation section finished! So we could run the MongoDB with >mongo command in our terminal,
 or also run it from MongoDB Compass application.No
 
-<img src="./images/mongo/mongo03.png" align="center">
+<img src="../images/mongo/mongo03.png" align="center">
 
 **Now** let`s see how does it work:
 
