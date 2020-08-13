@@ -45,8 +45,9 @@ Create a configuration file named mongodb.service in /etc/systemd/system to mana
 **Note**: You could use **“nano"** app instead of **“vim”** above!
 
 Copy the following contents in the file.
-
-<img src="../images/mongo/mongo01.png" align="center">
+<div style="text-align:center">
+<img src="../images/mongo/mongo01.png" >
+</div>
 
 Update the systemd service with the command stated below:
 > systemctl daemon-reload
