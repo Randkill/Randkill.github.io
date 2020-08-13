@@ -48,7 +48,7 @@ Create a configuration file named mongodb.service in /etc/systemd/system to mana
 
 Copy the following contents in the file.
 
-<img src="../images/mongo/mongo01.png" align="center">
+<img src="../images/mongo/mongo01.png" align="middle">
 
 Update the systemd service with the command stated below:
 > systemctl daemon-reload
@@ -63,14 +63,14 @@ Start the service with **systemcl**.
 
 Referenced to [MongoDB](https://www.mongodb.com/), you can get the app via this [page](https://docs.mongodb.com/compass/master/install/). A **.deb** file would be downloaded, then you may install it with the given commands :
 
-<img src="../images/mongo/mongo02.png" align="center">
+<img src="../images/mongo/mongo02.png" align="middle">
 
 
 Then press **enter** and the app will be installed soon!
 The installation section finished! So we could run the MongoDB with >mongo command in our terminal,
 or also run it from MongoDB Compass application.No
 
-<img src="../images/mongo/mongo03.png" align="center">
+<img src="../images/mongo/mongo03.png" align="middle">
 
 **Now** let`s see how does it work:
 
@@ -86,16 +86,16 @@ You have seen in SQL we had tables, but there is no such thing in MongoDB.instea
 command you can view the collections in your database. Although if you want to create a new
 collection you can easily enter the below command :
 
-<img src="../images/mongo/mongo04.png" align="center">
+<img src="../images/mongo/mongo04.png" align="middle">
 
 From now on, we are going to see some commands and especially queries on MongoDB .
  Before everything starts, an amount of data (called dataset) is needed. I downloaded my dataset ([New York City Airbnb Open Data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)) from [Kaggle](https://www.kaggle.com/).  The format of your downloaded file would be **.CSV** . What you will download would be something like this :
 
-<img src="../images/mongo/mongo05.png" align="center">
+<img src="../images/mongo/mongo05.png" align="middle">
 
 It looks like a big table. But the thing about MongoDB is that it only works with **.JSON** format.JSON stands for JavaScript Object Notation which is something like this :
 
-<img src="../images/mongo/mongo06.png" align="center">
+<img src="../images/mongo/mongo06.png" align="middle">
 
 We put this format into the category of Key-Value data.
 
