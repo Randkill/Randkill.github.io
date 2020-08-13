@@ -3,8 +3,6 @@ layout: post
 title: A brief intro to MongoDB, installation and some queries
 ---
 
-# MongoDB
-
   This is a brief instruction to ‘How to install **MongoDB** on Linux, how to work with it, and finally,
 how to have some queries on it’. Note that my operating system is **Ubuntu 19.04** (package manager is
 ***apt-get*** !).
