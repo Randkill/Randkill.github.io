@@ -76,6 +76,7 @@ or also run it from MongoDB Compass application.No
 
 First Open MongoDB app via ***>mongo*** command .
 <br/>
+
 ***>show dbs*** command will show you the databases on your system
 For using a specific database you can easily type ***>use DB_NAME*** (note that if the DB_NAME you`ve
 entered is not valid, it would create a new database with your given name(DB_NAME)).
@@ -84,3 +85,21 @@ You have seen in SQL we had tables, but there is no such thing in MongoDB.instea
 **collections** that can be defined as “an amount of data in .json format”. Via the ***>show collections***
 command you can view the collections in your database. Although if you want to create a new
 collection you can easily enter the below command :
+
+<img src="../images/mongo/mongo04.png" align="center">
+
+From now on, we are going to see some commands and especially queries on MongoDB .
+ Before everything starts, an amount of data (called dataset) is needed. I downloaded my dataset ([New York City Airbnb Open Data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)) from [Kaggle](https://www.kaggle.com/).  The format of your downloaded file would be **.CSV** . What you will download would be something like this :
+
+<img src="../images/mongo/mongo05.png" align="center">
+
+It looks like a big table. But the thing about MongoDB is that it only works with **.JSON** format.JSON stands for JavaScript Object Notation which is something like this :
+
+<img src="../images/mongo/mongo06.png" align="center">
+
+We put this format into the category of Key-Value data.
+
+Previously we saw MongoDB just works with **JSON** format, but here`s the good news: MongoDB can get **.csv** files and automatically change it to **JSON** format. Here we will see another big step: **How to import .csv files(datasets) to MongoDB ?**
+We will cover this part with both Command-Line and GUI way.
+
+# GUI approach:
