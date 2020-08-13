@@ -45,6 +45,7 @@ Create a configuration file named mongodb.service in /etc/systemd/system to mana
 **Note**: You could use **“nano"** app instead of **“vim”** above!
 
 Copy the following contents in the file.
+
 <div style="text-align:center">
 <img src="../images/mongo/mongo01.png" >
 </div>
@@ -62,14 +63,18 @@ Start the service with **systemcl**.
 
 Referenced to [MongoDB](https://www.mongodb.com/), you can get the app via this [page](https://docs.mongodb.com/compass/master/install/). A **.deb** file would be downloaded, then you may install it with the given commands :
 
+<div style="text-align:center"
 <img src="../images/mongo/mongo02.png" align="center">
+</div>
 
 
 Then press **enter** and the app will be installed soon!
 The installation section finished! So we could run the MongoDB with >mongo command in our terminal,
 or also run it from MongoDB Compass application.No
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo03.png" align="center">
+</div>
 
 **Now** let`s see how does it work:
 
@@ -85,16 +90,22 @@ You have seen in SQL we had tables, but there is no such thing in MongoDB.instea
 command you can view the collections in your database. Although if you want to create a new
 collection you can easily enter the below command :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo04.png" align="center">
+</div>
 
 From now on, we are going to see some commands and especially queries on MongoDB .
  Before everything starts, an amount of data (called dataset) is needed. I downloaded my dataset ([New York City Airbnb Open Data](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)) from [Kaggle](https://www.kaggle.com/).  The format of your downloaded file would be **.CSV** . What you will download would be something like this :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo05.png" align="center">
+</div>
 
 It looks like a big table. But the thing about MongoDB is that it only works with **.JSON** format.JSON stands for JavaScript Object Notation which is something like this :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo06.png" align="center">
+</div>
 
 We put this format into the category of Key-Value data.
 
@@ -105,34 +116,45 @@ We will cover this part with both Command-Line and GUI way.
 
 Open MongoDB Compass app. Set a new connection with the hostname of localhost and the default port of 27017. Afterward, you will see a page like down below :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo07.png" >
+</div>
 
 This page shows you the whole of your databases created by MongoDB. Then you should create a
 database of your own by which you can find the option with + sign at the bottom of the page like this
 screenshot :
 
-
+<div style="text-align:center">
 <img src="../images/mongo/mongo08.png">
+</div>
 
 You will face this form after you click on the + bottom. I called my database name
 **newDatabase** and then I created a collection with the name of **NYAirbnb**.
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo09.png">
+</div>
 
 You will face this Scene after clicking on the CREATE DATABASE bottom; A new database with a
 collection created with your given name.
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo10.png">
+</div>
 
 Our next step is to import the dataset(.csv file). For that purpose, you just need to click on the
 collection bottom above the window and then click on the import bottom. Finally, you will face this
 window and by importing the file, we will be so close to the end.
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo11.png">
+</div>
 
 You can easily see that after importing .csv file, it will generate the dataset to JSON format.
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo12.png">
+</div>
 
 # Command-Line approach:
 
@@ -161,7 +183,9 @@ used :
 
     mongoimport -d newDatabase -c newCollection --type csv --file AB_NYC_2019.csv --headerline
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo13.png">
+</div>
 
 Well, well. We`ve just finished our importing section. Here we come to the Query section.
 
@@ -173,12 +197,16 @@ First thing to do, is to see the data stored on our collection. Do as below :
 
 In my case you can see :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo14.png">
+</div>
 
 You can see there`s a big messy data down here. So, in order to make it prettier, you just need
 to use **.pretty()** as you will see :
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo15.png">
+</div>
 
 To find a specific document in our database here`s how we can do the query :
 
@@ -212,7 +240,9 @@ Here we go to some examples from our database :
 <br/>
  Let`s get all the Airbnb hosts who service rooms from “Manhattan” :
 
- <img src="../images/mongo/mongo16.png">
+<div style="text-align:center">
+<img src="../images/mongo/mongo16.png">
+</div>
 
  What if I don`t want to see the hosts’ ’ whole data?? I can use the projection by the way you will see :
 
@@ -221,7 +251,9 @@ Here we go to some examples from our database :
 
      {“name” : 1, “host_name” : 1, “neighbourhood_group” : 1, “price” : 1, “minimum_nights” : 1}
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo17.png">
+</div>
 
 Now I want to see the hosts whose houses are in Manhattan and the price of their possession is less
 than $100, but before that let`s note that we can use the comparison operators via these commands :
@@ -257,7 +289,9 @@ than $100, but before that let`s note that we can use the comparison operators v
 
 Here`s the example for less than: 
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo18.png">
+</div>
 
 ## Update a document:
 
@@ -273,7 +307,9 @@ Command:
     ObjectId("5da5c6736082f11678a11b4e ")} ,{$set: {"host_name" : 
     "Alex"}})
 
+<div style="text-align:center">
 <img src="../images/mongo/mongo19.png">
+</div>
 
 Finally, if you want to delete your collection, database or, document you can use these commands :
 
