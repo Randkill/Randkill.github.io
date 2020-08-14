@@ -16,17 +16,18 @@ There are a few files in there, in which **per_games_stats.csv** is used in this
 
 
 Basically, it's needed to import three libraries for our work; **pandas**, **numpy** and **matplotlib**(we need **pyplot** from it).
-
-    import pandas as pd
-    import numpy as np
-    import matplotlib.pyplot as plt
-
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
 
 **Let's load the file(per_games_stats.csv)**
-
-    data = pd.read_csv('per_game_stats.csv')
-    df = pd.DataFrame(data)
-    df
+```python
+data = pd.read_csv('per_game_stats.csv')
+df = pd.DataFrame(data)
+df
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball01.png">
@@ -34,7 +35,9 @@ Basically, it's needed to import three libraries for our work; **pandas**, **num
 
 Now Let's get some statistical infromation about it:
 
-    df.describe()
+```python
+df.describe()
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball02.png">
@@ -46,20 +49,20 @@ Now, what shall we do?
 Our goal is to kind of merge these great palyers into one player(kind of GOAT), and get stats from that big one like what is the average points per game from the combined player.
 
 Before that, let's fetch **age** and **pts** from our dataset
-
-    age = df[df.columns[1]]
-    pts = df[df.columns[29]]
-
+```python
+age = df[df.columns[1]]
+pts = df[df.columns[29]]
+```
 
 Now we transfer this data into a scatter plot
-
-    figure = plt.figure(figsize= (8, 4.5),dpi = 70)
-    axes = figure.add_axes([0.1, 0.1, 0.8, 0.8])
-    axes.scatter(age, pts)
-    axes.set_xlabel('Age Label')
-    axes.set_ylabel('Points Label')
-    axes.set_title('Points at every Age')
-
+```python
+figure = plt.figure(figsize= (8, 4.5),dpi = 70)
+axes = figure.add_axes([0.1, 0.1, 0.8, 0.8])
+axes.scatter(age, pts)
+axes.set_xlabel('Age Label')
+axes.set_ylabel('Points Label')
+axes.set_title('Points at every Age')
+```
 <div style="text-align:center">
 <img src="../images/Basketball/basketball03.png">
 </div>
@@ -67,31 +70,34 @@ Now we transfer this data into a scatter plot
 As we've fetched our data, we need to combine this data into 1-player's stats. **KNN**(k-nearest neighbors algorithm) is quite a good choice for the purpose.
 
 We imort it from sklearn.neighbors and define a classifier for it.
-
-    from sklearn.neighbors import KNeighborsClassifier
-    classifier = KNeighborsClassifier(n_neighbors= 5)
+```python
+from sklearn.neighbors import KNeighborsClassifier
+classifier = KNeighborsClassifier(n_neighbors= 5)
+```
 
 In order to fit the classifier using .fit() method, need two parameters, which in my case they are **age** and **points**. Firstly, it s needed to make both of them into arrays which I use **numpy ndArray**, age must be transfered into a 2D array via ***reshape*** command, and as points in our table are in **float** format, I want to make them into integer type.
-
-    age = np.array(age)
-    type(age)
-
+```python
+age = np.array(age)
+type(age)
+```
 >numpy.ndarray
-
-    pts = np.array(pts)
-    type(pts)
-
+```python
+pts = np.array(pts)
+type(pts)
+```
 >numpy.ndarray
-
-    age = np.reshape(age, (-1, 1))
-
+```python
+age = np.reshape(age, (-1, 1))
+```
 **Note**:
 <br/>
 For making fit model work, I needed to make pts 10 times bigger, otherwise I will reach 'continues type' Error!
 
-    pts.astype(int)
-    pts = pts * 10
-    pts
+```python
+pts.astype(int)
+pts = pts * 10
+pts
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball04.png">
@@ -99,7 +105,9 @@ For making fit model work, I needed to make pts 10 times bigger, otherwise I wil
 
 Finally, we have to **fit** our classifier:
 
-    classifier.fit(age, pts)
+```python
+classifier.fit(age, pts)
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball05.png">
@@ -113,7 +121,9 @@ Our next step, is to test what we have made by few examples
 
 >I want to check out, if our great player is at age 26, how many points can he make per game?
 
-    print('At age 26 they made', classifier.predict([[26]])/10, ' points per match!')
+```python
+print('At age 26 they made', classifier.predict([[26]])/10, ' points per match!')
+```
 
 Our answer:
 
@@ -127,7 +137,9 @@ Let's make another one:
 
 >I want to check out, if our great player is at age 23, how many points can he make per game?
 
-    print('At age 24 they made', classifier.predict([[24]])/10, ' points per match!')
+```python
+print('At age 24 they made', classifier.predict([[24]])/10, ' points per match!')
+```
 
 Answer:
 >At age 24 they made [28.4]  points per match!
@@ -139,15 +151,21 @@ Our approach is quite like the previous one:
 
 Importing the algorithm
 
-    from sklearn import svm
+```python
+from sklearn import svm
+```
 
 Using a **Linear Kernel** classifier
 
-    clf = svm.SVC(kernel= 'linear')
+```python
+clf = svm.SVC(kernel= 'linear')
+```
 
 Now, fitting the model:
 
-    clf.fit(age, pts)
+```python
+clf.fit(age, pts)
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball09.png">
@@ -155,8 +173,10 @@ Now, fitting the model:
 
 Testing our data :
 
-    test_data = [[37], [20], [24], [27], [30], [34]]
-    print('Points they made : ', clf.predict(test_data)/10)
+```python
+test_data = [[37], [20], [24], [27], [30], [34]]
+print('Points they made : ', clf.predict(test_data)/10)
+```
 
 Answer:
 
@@ -174,15 +194,21 @@ For this purposes, to find out answers and classifications with probabilities(un
 <br/>
 So we import it
 
-    from sklearn.linear_model import LogisticRegression
+```python
+from sklearn.linear_model import LogisticRegression
+```
 
 Make a classifier out of it:
 
-    calssifier = LogisticRegression()
+```python
+calssifier = LogisticRegression()
+```
 
 I want to give **.fit()** method, their **Age** and **Points**, and I want to recieve **Player Name** as the prediction. This is how I fit the model :
 
-    classifier.fit(df[['Age', 'PTS']], df['Player'])
+```python
+classifier.fit(df[['Age', 'PTS']], df['Player'])
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball06.png">
@@ -200,8 +226,10 @@ age 32, 34 points **might** be Lebron James
 We can now check out, how accurate is our classifier!
 So we test it:
 
-    testData = [[23, 40], [37 ,17], [24, 30], [32, 34]]
-    classifier.predict(testData)
+```python
+testData = [[23, 40], [37 ,17], [24, 30], [32, 34]]
+classifier.predict(testData)
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball07.png">
@@ -209,7 +237,9 @@ So we test it:
 
 But there is always a parameter of probability, let s check that :
 
-    classifier.predict_proba(testData)
+```python
+classifier.predict_proba(testData)
+```
 
 <div style="text-align:center">
 <img src="../images/Basketball/basketball08.png">
