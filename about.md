@@ -10,7 +10,7 @@ Here is my curriculum vitae:
 **Bachelor of Science**​ in Computer Science
 <br>
 University of Kashan, Kashan, Iran
-  * GPA: 16.5/20
+  * GPA: 3.35/4 (16.57/20)
   * Thesis: Visual Keras Model Generator(in preparation)
 <br>
 
@@ -171,15 +171,6 @@ are:
 
 ---
 
-# Selected Courses
-* Data Mining (GPA: 20/20)
-* Data Base (GPA: 18.32/20)
-* Computational Intelligence (GPA: 17.6/20)
-* Image Processing (GPA: 16.2/20)
-* Software Engineering (20/20)
-
-
----
 
 # Hobbies
 I love swimming as my #1 favorite sport. I am also fully proficient in 4 main styles.
