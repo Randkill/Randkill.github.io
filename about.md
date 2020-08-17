@@ -17,9 +17,9 @@ University of Kashan, Kashan, Iran
 ---
 # **Research Interest**
 * Data Science
-* Data Mining
 * Deep Learning
 * Machine Learning
+* Data Mining
 * Web Development, Back-End
 
 ---
