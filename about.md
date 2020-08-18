@@ -25,7 +25,7 @@ University of Kashan, Kashan, Iran
 ---
 # **Experiences**
 
-I had these experiences with the role of teaching students, giving examples and solving their
+I had these experiences with the role of teaching students, giving examples, and solving their
 <br>
 problems in the Department of Mathematics at the University of Kashan.
 <br>
@@ -77,7 +77,7 @@ University of Kashan
 * CSS
 
 
-### Technologies, Frameworks and Libraries:
+### Technologies, Frameworks, and Libraries:
 * For Python: Keras, Pandas, scikit-learn, Numpy, Matplotlib
 * For Web: Node.js, Express.js, React.js
 * Other Platforms: Native Android Development with Java(Android Studio)
@@ -107,17 +107,17 @@ Computer Science Association
 Here are some of the projects I’ve developed during my academic career for courses Computational Intelligence, Data Mining, Databases Lab, Image Processing, Advanced Computer Programming and Fundamentals of Computer and Programming
 2020
 
-**Persian Handwritten Digit Recognition​**: During my second time of working with image classifiers in course Computational Intelligence, I had a chance to design and develop a recognizer for a persian handwritten digit dataset(a persian alternative to mnist dataset). Then, I compared the accuracy of CNN with a multi layer perceptron and answers once again showed how good convolutionals can be in this field. I have also used Python and Keras for the purpose.
+**Persian Handwritten Digit Recognition​**: During my second time of working with image classifiers in course Computational Intelligence, I had a chance to design and develop a recognizer for a Persian handwritten digit dataset(a Persian alternative to mnist dataset). Then, I compared the accuracy of CNN with a multi-layer perceptron and answers once again showed how good Convolutional Neural Networks can be in this field. I have also used Python and Keras for the purpose.
 
 <br>
 <br>
 2020
 <br>
 
-**Hospital Database​**:  I developed and designed a simple hospital database using Microsoft SQL Server. I’ve also written some queries, functions, triggers and executed a few store procedures on the database for course Databases Lab.
+**Hospital Database​**:  I developed and designed a simple hospital database using Microsoft SQL Server. I’ve also written some queries, functions, triggers, and executed a few store procedures on the database for course Databases Lab.
 
 2019
-**New York City Neighbourhood Map by Clustering​** : For Data Mining course self defined project, I found a New York City Buildings Stats dataset and then used clustering algorithms KMeans and DBScan to make a secondary map using their latitudes and longitudes which shows neighbours and their boundary. Finally it can be visible how accurate these algorithms act compared to the real world. I’ve also used Python, Pandas and scikit-learn for this project.
+**New York City Neighbourhood Map by Clustering​** : For Data Mining course self-defined project, I found a New York City Buildings Stats dataset and then used clustering algorithms KMeans and DBScan to make a secondary map using their latitudes and longitudes which shows neighbors and their boundary. Finally, it can be visible how accurate these algorithms act compared to the real world. I’ve also used Python, Pandas, and scikit-learn for this project.
 
 <br>
 <br>
@@ -125,8 +125,9 @@ Here are some of the projects I’ve developed during my academic career for cou
 2019
 <br>
 
-**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: As a fun and cool mini project for my Data Mining course, I found a data set of these three great basketball players stats.Then I used machine learning algorithms such as KNN, Logistic Regression and SVM via Python, Pandas and scikit-learn and finally did following tasks:
-* Mixing MJ, KB and LJ stats, finding average stats and finally predict their performance by
+**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: As a fun and cool mini project for my Data Mining course, I found a data set of these three great basketball players stats. Then I used machine learning algorithms such as KNN, Logistic Regression, and SVM via Python, Pandas, and scikit-learn, and finally did the following tasks:
+
+* Mixing MJ, KB, and LJ stats, finding average stats, and finally, predict their performance by
 age.(I used KNN and SVM)
 * Find the player’s name by giving age and performance(average points). (I used Logistic Regression)
 <br>
@@ -135,7 +136,7 @@ age.(I used KNN and SVM)
 2019
 <br>
 
-**Image Classifier**: ​ As the final project of my Image Processing course, a 10000 length dataset with 100 classes where given and classification was desired. As I started using python, I’ve solved the mentioned problem with a convolutional neural network via Keras library.
+**Image Classifier**: ​ As the final project of my Image Processing course, a 10000 length dataset with 100 classes where given and classification was desired. As I started using python, I’ve solved the mentioned problem with a Convolutional Neural Network via Keras library.
 
 <br>
 <br>
@@ -143,8 +144,8 @@ age.(I used KNN and SVM)
 2017
 <br>
 
-**Data File Handler​**: In this project, some description and information about datafiles(such as Format. Author, Creation Date, Modification Date, etc ) are stored and can
-be manipulated visually via Swing library which I’ve developed, using Java. Also it was
+**Data File Handler​**: In this project, some descriptions and information about datafiles(such as Format. Author, Creation Date, Modification Date, etc ) are stored and can
+be manipulated visually via the Swing library which I’ve developed, using Java. Also, it was
 the first time during my career that I’ve used Object Oriented methods.
 <br>
 <br>
@@ -157,15 +158,15 @@ education, I’ve used my first learned programming language(C++), in order to g
 graph to the input as a matrix, and extract some features from it which some of them
 are:
 * Graph Degree
-* Maximum and minimum degree of nodes
-* Path through two given nodes
+* The maximum and minimum degree of nodes
+* A path through two given nodes
 * Shortest existing path in graph
-* Finding ​ Hamiltonian path
-* Finding ​ Eulerian path
+* Finding a Hamiltonian path
+* Finding an Eulerian path
 * Finding graph’s eigenvalue
-* Checking if graph is a tree or not
+* Checking if the graph is a tree or not
 * Checking graph connectivity
-* Checking if graph is planar or not
+* Checking if the graph is planar or not
 * Checking graph isomorphism
 * Checking graph completeness
 
@@ -173,10 +174,8 @@ are:
 
 
 # Hobbies
-I love swimming as my #1 favorite sport. I am also fully proficient in 4 main styles.
-Besides sports, I am passionate about self development, working on my mentals and
-reading motivational books. And it’s good to say I really like classic rock songs
-especially Pink Floyd and Nickelback’s rock.
+I love swimming as my number 1 favorite sport. I am also fully proficient in 4 main styles. Besides sports, I am passionate about self-development, working on my mentals, and reading motivational books. And it’s good to say I really like classic rock songs especially Pink Floyd and Nickelback’s rock.
+
 
 ---
 
