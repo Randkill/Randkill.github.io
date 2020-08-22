@@ -106,7 +106,7 @@ Computer Science Association
 # Academic Projects
 
 2020
-
+<br>
 **Persian Handwritten Digit Recognition​**: Developed a recognizer for a Persian handwritten digit dataset(a Persian alternative to mnist dataset) using CNN and compared accuracy with a few multi-layer perceptron neural networks.		
 <br>
 <br>
@@ -118,7 +118,6 @@ Course: Computational Intelligence
 <br>
 2020
 <br>
-
 **Hospital Database​**:  Designed a simple hospital database and developed some queries, functions, triggers, and executed a few store procedures.			
 <br>
 <br>
@@ -140,7 +139,6 @@ Course: Data Mining
 
 2019
 <br>
-
 **Which one? Michael Jordan, Kobe Bryant or Lebron James​**: Applied machine learning algorithms such as KNN, Logistic Regression, and SVM to a dataset of these three great basketball players and extracted some information from it.
 <br>
 <br>
@@ -151,7 +149,6 @@ Course: Data Mining
 
 2019
 <br>
-
 **Image Classifier**: ​Designed and developed an image classifier using CNN for a dataset of 10000 images.
 <br>
 <br>
@@ -162,7 +159,6 @@ Course: Image Processing
 
 2017
 <br>
-
 **Data File Handler​**: A data file description and information(such as Format. Author, Creation Date, Modification Date, etc) handler and manipulator.
 <br>
 <br>
@@ -173,7 +169,6 @@ Course: Advanced Computer Programming
 
 2016
 <br>
-
 **Graph Characteristic Minner**: ​ A command-line based application which finds and does the blow actions:
 
 * Calculate Graph Degree
