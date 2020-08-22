@@ -126,7 +126,9 @@ Course: Databases Lab
 <br>
 
 
-2019Used a New York City Buildings Stats dataset and clustering algorithms KMeans and DBScan inorder to try to make a secondary map of NY neighborhoods with their latitude and longitude.		
+2019
+<br>
+**New York City Neighbourhood Map by Clustering:** :Used a New York City Buildings Stats dataset and clustering algorithms KMeans and DBScan inorder to try to make a secondary map of NY neighborhoods with their latitude and longitude.		
 <br>
 Used Technologies: Python, NumPy, Pandas, scikit-learn, and Matplotlib      			
 <br>
