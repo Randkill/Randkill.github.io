@@ -62,7 +62,7 @@ University of Kashan
 * Professor: Dr. Mahsa Soheil Shamaei
 
 <br>
-Roles for above experiences: Teaching students, giving examples and solving their problems
+Roles for the above experiences: Teaching students, giving examples and solving their problems
 <br>
 
 ---
@@ -129,7 +129,7 @@ Course: Databases Lab
 
 2019
 <br>
-**New York City Neighbourhood Map by Clustering:** :Used a New York City Buildings Stats dataset and clustering algorithms KMeans and DBScan inorder to try to make a secondary map of NY neighborhoods with their latitude and longitude.		
+**New York City Neighbourhood Map by Clustering:** :Used a New York City Buildings Stats dataset and clustering algorithms KMeans and DBScan in an attempt to make a secondary map of NY neighborhoods with their latitude and longitude.		
 <br>
 <br>
 Used Technologies: Python, NumPy, Pandas, scikit-learn, and Matplotlib      			
@@ -139,7 +139,7 @@ Course: Data Mining
 
 2019
 <br>
-**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: Applied machine learning algorithms such as KNN, Logistic Regression, and SVM to a dataset of these three great basketball players and extracted some information from it.
+**Which one? Michael Jordan, Kobe Bryant or Lebron James​**: Applied machine learning algorithms such as KNN, Logistic Regression, and SVM to a dataset of these three great basketball players to extract some information from it.
 <br>
 <br>
 Used Technologies: Python, NumPy, Pandas, scikit-learn, and Matplotlib      			
@@ -194,7 +194,7 @@ Course: Fundamental of COmputer and Programming
 
 
 # Hobbies
-I love swimming as my number 1 favorite sport. I am also fully proficient in 4 main styles. Besides sports, I am passionate about self-development, working on my mentals, and reading motivational books. And it’s good to say I really like classic rock songs especially Pink Floyd and Nickelback’s rock.
+I love swimming as my number 1 favorite sport. I am also fully proficient in 4 main styles. Besides sports, I am passionate about self-development, working on my mentals, and reading motivational books. And it’s good to say I like classic rock songs especially Pink Floyd and Nickelback’s rock.
 
 
 ---
