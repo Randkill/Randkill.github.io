@@ -109,6 +109,7 @@ Computer Science Association
 
 **Persian Handwritten Digit Recognition​**: Developed a recognizer for a Persian handwritten digit dataset(a Persian alternative to mnist dataset) using CNN and compared accuracy with a few multi-layer perceptron neural networks.		
 <br>
+<br>
 Used Technologies: Python, NumPy, Matplotlib, and Keras 				
 <br>
 Course: Computational Intelligence
@@ -120,6 +121,7 @@ Course: Computational Intelligence
 
 **Hospital Database​**:  Designed a simple hospital database and developed some queries, functions, triggers, and executed a few store procedures.			
 <br>
+<br>
 Used Technologies: Microsoft SQL Server							
 <br>
 Course: Databases Lab
@@ -129,6 +131,7 @@ Course: Databases Lab
 2019
 <br>
 **New York City Neighbourhood Map by Clustering:** :Used a New York City Buildings Stats dataset and clustering algorithms KMeans and DBScan inorder to try to make a secondary map of NY neighborhoods with their latitude and longitude.		
+<br>
 <br>
 Used Technologies: Python, NumPy, Pandas, scikit-learn, and Matplotlib      			
 <br>
@@ -140,6 +143,7 @@ Course: Data Mining
 
 **Which one? Michael Jordan, Kobe Bryant or Lebron James​**: Applied machine learning algorithms such as KNN, Logistic Regression, and SVM to a dataset of these three great basketball players and extracted some information from it.
 <br>
+<br>
 Used Technologies: Python, NumPy, Pandas, scikit-learn, and Matplotlib      			
 <br>
 Course: Data Mining
@@ -150,6 +154,7 @@ Course: Data Mining
 
 **Image Classifier**: ​Designed and developed an image classifier using CNN for a dataset of 10000 images.
 <br>
+<br>
 Used Technologies: Python, NumPy, and Keras				 		
 <br>
 Course: Image Processing
@@ -159,6 +164,7 @@ Course: Image Processing
 <br>
 
 **Data File Handler​**: A data file description and information(such as Format. Author, Creation Date, Modification Date, etc) handler and manipulator.
+<br>
 <br>
 Used Technologies: Java, Swing								
 <br>
