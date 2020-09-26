@@ -1,4 +1,7 @@
-# Introduction to Reat.js
+---
+layout: post
+title: Introduction to Reat.js
+---
 
 In this article, I am going to introduce you to React.js and make a simple app with it. So, let`s go on
 
@@ -6,7 +9,7 @@ In this article, I am going to introduce you to React.js and make a simple app w
 
 
 <div style="text-align:center" width="10" height="10">
-<img src="assets/ReactIntro/reactlogo.svg" width=30%>
+<img src="./assets/ReactIntro/reactlogo.svg" width=30%>
 </div>
 
 
