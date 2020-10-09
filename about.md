@@ -81,6 +81,7 @@ Roles for the above experiences: Teaching students, giving examples and solving 
 * For Python: Keras, Pandas, scikit-learn, Numpy, Matplotlib
 * For Web: Node.js, Express.js, React.js
 * Other Platforms: Native Android Development with Java(Android Studio)
+* Version Controlling Systems: git
 
 
 ### Databases:
